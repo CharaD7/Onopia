@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.1'
+gem 'rails', '4.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -64,4 +64,4 @@ gem 'authlogic', '3.1.0'
 gem 'meta_search', '1.1.3'
 gem 'naive_bayes', :git => 'git://github.com/reddavis/Naive-Bayes.git'
 gem 'heroku'
-gem 'activeadmin'
+gem 'activeadmin', '>= 0.4.0'
