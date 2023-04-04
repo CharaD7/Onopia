@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.1'
+gem 'rails', '6.1.7.3'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -17,12 +17,12 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'sass-rails', '~> 5.0.8'
+  gem 'coffee-rails', '~> 4.2.2'
+  gem 'uglifier', '>= 2.7.2'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -60,8 +60,8 @@ group :development do
 end
 
 gem "galetahub-simple_captcha", '0.1.3', :require => "simple_captcha"
-gem 'authlogic', '3.1.0'
+gem 'authlogic', '3.3.0'
 gem 'meta_search', '1.1.3'
 gem 'naive_bayes', :git => 'git://github.com/reddavis/Naive-Bayes.git'
-gem 'heroku'
-gem 'activeadmin'
+gem 'heroku', '>= 3.99.4'
+gem 'activeadmin', '>= 1.0.0'
