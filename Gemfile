@@ -40,7 +40,7 @@ group :test do
   gem 'spork', '0.8.5'
   gem 'factory_girl_rails', '1.4.0'
   gem 'email_spec', '1.2.1'
-  gem 'cucumber-rails', '1.2.1'
+  gem 'cucumber-rails', '3.0.0'
   gem 'launchy', '2.0.5'
   gem 'pickle', '0.4.10'
   gem 'database_cleaner', '0.7.0'
