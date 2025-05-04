@@ -35,7 +35,7 @@ gem 'jquery-rails'
 
 group :test do
   gem 'capybara', '1.1.2'
-  gem 'rspec-rails', '2.8.1'
+  gem 'rspec-rails', '8.0.0'
   gem 'autotest-rails', '4.1.1'
   gem 'spork', '0.8.5'
   gem 'factory_girl_rails', '1.4.0'
