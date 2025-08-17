@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.1'
+gem 'rails', '7.1.5.2'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -60,8 +60,8 @@ group :development do
 end
 
 gem "galetahub-simple_captcha", '0.1.3', :require => "simple_captcha"
-gem 'authlogic', '3.1.0'
+gem 'authlogic', '3.1.1'
 gem 'meta_search', '1.1.3'
 gem 'naive_bayes', :git => 'git://github.com/reddavis/Naive-Bayes.git'
 gem 'heroku'
-gem 'activeadmin'
+gem 'activeadmin', '>= 1.0.0'
